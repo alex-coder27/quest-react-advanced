@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/quest-react-advanced/static/css/main.e6c13ad2.css",
-    "main.js": "/quest-react-advanced/static/js/main.7006843a.js",
+    "main.js": "/quest-react-advanced/static/js/main.caac3b19.js",
     "static/media/carregar-mais.png": "/quest-react-advanced/static/media/carregar-mais.0c00affef31b187b3014.png",
     "static/media/chandelure-apagado.png": "/quest-react-advanced/static/media/chandelure-apagado.c2b0a73d092d913dc605.png",
     "static/media/chandelure-normal.png": "/quest-react-advanced/static/media/chandelure-normal.e6e46a7b9b14510430f1.png",
     "index.html": "/quest-react-advanced/index.html",
     "main.e6c13ad2.css.map": "/quest-react-advanced/static/css/main.e6c13ad2.css.map",
-    "main.7006843a.js.map": "/quest-react-advanced/static/js/main.7006843a.js.map"
+    "main.caac3b19.js.map": "/quest-react-advanced/static/js/main.caac3b19.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7006843a.js"
+    "static/js/main.caac3b19.js"
   ]
 }
