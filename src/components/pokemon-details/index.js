@@ -10,7 +10,7 @@ export const PokeDetails = ({ name, image, moves, types, abilities, id }) => {
     return (
         <>
             <C.Header theme={theme}>
-                <Link to='/quest-react-advanced'>
+                <Link to='/quest-react-advanced/'>
                     <C.Voltar src={theme.seta} alt="seta" />
                 </Link>
                 <ThemeSwitcherButton />
