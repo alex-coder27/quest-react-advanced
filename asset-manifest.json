@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PokeDex---PokeApi/static/css/main.e6c13ad2.css",
+    "main.js": "/PokeDex---PokeApi/static/js/main.66118332.js",
+    "static/media/carregar-mais.png": "/PokeDex---PokeApi/static/media/carregar-mais.0c00affef31b187b3014.png",
+    "static/media/chandelure-apagado.png": "/PokeDex---PokeApi/static/media/chandelure-apagado.c2b0a73d092d913dc605.png",
+    "static/media/chandelure-normal.png": "/PokeDex---PokeApi/static/media/chandelure-normal.e6e46a7b9b14510430f1.png",
+    "index.html": "/PokeDex---PokeApi/index.html",
+    "main.e6c13ad2.css.map": "/PokeDex---PokeApi/static/css/main.e6c13ad2.css.map",
+    "main.66118332.js.map": "/PokeDex---PokeApi/static/js/main.66118332.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.66118332.js"
+  ]
+}
