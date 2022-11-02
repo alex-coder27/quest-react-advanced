@@ -1,10 +1,12 @@
 import { useState, useEffect, useContext } from 'react'
 import { getPokemons, loadMorePokemons } from '../../services/index'
 import { CardPokemon } from '../../components/card-pokemon'
-import * as C from "./style"
-import logoCarregar from '../../images/carregar-mais.png'
+import { Heading } from '../../components/header'
 import { ThemeSwitcherButton } from '../../components/button-switch-theme'
 import { ThemeContext } from '../../context/theme-switcher'
+import * as C from "./style"
+import loadPage from '../../images/carregar-mais.png'
+import logo from '../../images/logo.png'
 
 export const HomePage = () => {
     const [pokemons, setPokemons] = useState([])
@@ -27,9 +29,10 @@ export const HomePage = () => {
 
     return (
         <>
-            <C.Header theme={theme}>
+            <Heading>
+                <C.Logo src={logo} alt='Logo de Bem Vindo'></C.Logo>
                 <ThemeSwitcherButton />
-            </C.Header>
+            </Heading>
             <C.Main theme={theme}>
                 <C.ListPokemon>
                     {pokemons.map((pokemon, index) => {
@@ -45,7 +48,7 @@ export const HomePage = () => {
                     })}
                 </C.ListPokemon>
                 <C.Button onClick={loadMore}>
-                    <img src={logoCarregar}  alt='Botão Carregar'/>
+                    <img src={loadPage}  alt='Botão Carregar'/>
                 </C.Button>
             </C.Main>
         </>

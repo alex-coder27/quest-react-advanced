@@ -1,20 +1,6 @@
 import styled from 'styled-components'
 
-export const Header = styled.header`
-    padding: 20px 50px;
-    background: ${props => props.theme.header};
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @media (max-width: 460px) {
-        padding: 10px;
-        img {
-            width: 50px;
-        }
-    }
-`
-
-export const Voltar = styled.img`
+export const HomePage = styled.img`
     width: 90px;
     :hover {
         animation: navegar 0.5s infinite alternate;
@@ -25,8 +11,12 @@ export const Voltar = styled.img`
             }
             to {
                 transform: translateX(25px);
-            }
         }
+    }
+    @media (max-width: 460px) {
+        width: 70px;
+    }
+
 `
 
 export const Main = styled.main`

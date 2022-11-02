@@ -6,4 +6,9 @@ export const Button = styled.button`
     img {
         width: 100px;
     }
+    @media (max-width: 460px) {
+        img {
+            width: 70px;
+        }
+    }
 `

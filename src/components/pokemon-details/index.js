@@ -3,18 +3,19 @@ import * as C from "./style"
 import { ThemeSwitcherButton } from '../button-switch-theme/index'
 import { useContext } from "react"
 import { ThemeContext } from "../../context/theme-switcher"
+import { Heading } from "../header"
 
 export const PokeDetails = ({ name, image, moves, types, abilities, id }) => {
     const { theme } = useContext(ThemeContext)
 
     return (
         <>
-            <C.Header theme={theme}>
+            <Heading>
                 <Link to='/quest-react-advanced/'>
-                    <C.Voltar src={theme.seta} alt="seta" />
+                    <C.HomePage src={theme.seta} alt="seta" />
                 </Link>
                 <ThemeSwitcherButton />
-            </C.Header>
+            </Heading>
             <C.Main theme={theme}>
                 <C.ProfilePokemon>
                     <C.ContainerImage theme={theme}>
