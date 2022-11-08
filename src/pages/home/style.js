@@ -10,6 +10,7 @@ export const Logo = styled.img`
 export const Main = styled.main`
     background: ${props => props.theme.backgroundHome};
     display: flex;
+    max-width: 1440px;
     min-height: 100vh;
     flex-direction: column;
     justify-content: center;

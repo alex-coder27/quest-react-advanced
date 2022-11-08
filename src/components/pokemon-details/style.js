@@ -21,7 +21,7 @@ export const HomePage = styled.img`
 
 export const Main = styled.main`
     display: flex;
-    max-height: 1440px;
+    max-width: 1440px;
     height: 100vh;
     justify-content: center;
     align-items: center;

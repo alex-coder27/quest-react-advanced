@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Header = styled.header`
+    max-width: 1440px;
     padding: 20px 50px;
     background: ${props => props.theme.header};
     display: flex;
